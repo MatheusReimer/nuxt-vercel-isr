@@ -15,6 +15,6 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     nitro: { envPrefix: 'VERCEL_' },
-    region: process.env.VERCEL_REGION,
+    region: 'US',
   },
 })
